@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8249" started-at="2020-09-01T15:45:15Z" finished-at="2020-09-01T15:45:23Z">
+  <suite name="Default suite" duration-ms="35" started-at="2020-09-06T05:54:28Z" finished-at="2020-09-06T05:54:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8249" started-at="2020-09-01T15:45:15Z" finished-at="2020-09-01T15:45:23Z">
+    <test name="Default test" duration-ms="35" started-at="2020-09-06T05:54:28Z" finished-at="2020-09-06T05:54:28Z">
       <class name="Runner.run">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Runner.run@1d057a39]" name="beforeMethod" is-config="true" duration-ms="14" started-at="2020-09-01T21:15:15Z" finished-at="2020-09-01T21:15:15Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Runner.run@cb5822]" name="beforeMethod" is-config="true" duration-ms="16" started-at="2020-09-06T11:24:28Z" finished-at="2020-09-06T11:24:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="f()[pri:0, instance:Runner.run@1d057a39]" name="f" duration-ms="7799" started-at="2020-09-01T21:15:15Z" finished-at="2020-09-01T21:15:23Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:Runner.run@cb5822]" name="f" duration-ms="7" started-at="2020-09-06T11:24:28Z" finished-at="2020-09-06T11:24:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="g()[pri:0, instance:Runner.run@1d057a39]" name="g" duration-ms="421" started-at="2020-09-01T21:15:23Z" finished-at="2020-09-01T21:15:23Z">
+        <test-method status="PASS" signature="g()[pri:0, instance:Runner.run@cb5822]" name="g" duration-ms="3" started-at="2020-09-06T11:24:28Z" finished-at="2020-09-06T11:24:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- g -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:Runner.run@1d057a39]" name="afterSuite" is-config="true" duration-ms="3" started-at="2020-09-01T21:15:23Z" finished-at="2020-09-01T21:15:23Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:Runner.run@cb5822]" name="afterSuite" is-config="true" duration-ms="0" started-at="2020-09-06T11:24:28Z" finished-at="2020-09-06T11:24:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

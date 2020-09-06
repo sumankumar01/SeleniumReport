@@ -23,33 +23,17 @@ public class run {
   public void f() throws InterruptedException {
 		
 		
-		System.setProperty("webdriver.chrome.driver", "D:/Selenium Software/chromedriver.exe");
 		
-		 driver=new ChromeDriver();
-		driver.get("https://www.linkedin.com/feed/");;
-		/*FlashObjectWebDriver fl=new FlashObjectWebDriver(driver, "");
-		//FlexUISelenium flex=new FlexUISelenium(driver, "");
-		//FlashObjectWebDriver flashApp = new FlashObjectWebDriver(driver, "__symantecPKIClientMessenger");
-  		FlashObjectWebDriver flashApp = new FlashObjectWebDriver(driver, "myFlashMovie");
-		//FlashSelenium flashApp=new FlashSelenium(driver, "__symantecPKIClientMessenger");
-		driver.get("http://demo.guru99.com/test/flash-testing.html");;
-		Thread.sleep(5000);	
+	  //report.Func_Footer("TC1","login",driver);
 		
-		//flashApp.callFlashObject(functionName, args)
-	  	flashApp.callFlashObject("Play");			
-	  	Thread.sleep(5000);		
-		flashApp.callFlashObject("StopPlay");*/
-		
-	  report.Func_Footer("TC1","login",driver);
-		
-	  
+	  report.ReportStep("TC1","login");
   }
   
   @Test
   public void g() throws InterruptedException {
 		
-		
-	  report.Func_Footer("TC2","home page",driver);
+	  Report.FailFlag=true;
+	  report.ReportStep("TC2","home page");
 		
 	  
   }
